@@ -1,0 +1,6 @@
+FLYROR_DATABASE_HOST: host.database.abc.example.com
+FLYROR_DATABASE_NAME: DatabaseName
+FLYROR_DATABASE_USER_NAME: DbUserName
+FLYROR_DATABASE_PASSWORD: PasswordOfTheDbUser
+
+DEVISE_JWT_SECRET_KEY: KeyObtainedUsingRunCommand[rake secret]
