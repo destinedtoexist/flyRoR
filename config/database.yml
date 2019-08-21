@@ -84,6 +84,7 @@ test:
 #
 production:
   <<: *default
-  database: flyRoR_production
-  username: flyRoR
+  host: <%= ENV['FLYROR_DATABASE_HOST'] %>
+  database: <%= ENV['FLYROR_DATABASE_NAME'] %>
+  username: <%= ENV['FLYROR_DATABASE_USER_NAME'] %>
   password: <%= ENV['FLYROR_DATABASE_PASSWORD'] %>
